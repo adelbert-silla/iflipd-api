@@ -1,0 +1,31 @@
+{
+  "name": "BookMetadata",
+  "plural": "BooksMetadata",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "isbn13": {
+      "type": "string",
+      "required": true
+    },
+    "parentPublisherAlias": {
+      "type": "string",
+      "required": true
+    },
+    "metadata": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

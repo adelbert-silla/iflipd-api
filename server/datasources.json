@@ -1,0 +1,11 @@
+{
+  "db": {
+    "name": "iflipd_db",
+    "connector": "mongodb",
+    "host": "127.0.0.1",
+    "database": "iflipd",
+    "username": "",
+    "password": "",
+    "port": 27017
+  }
+}
