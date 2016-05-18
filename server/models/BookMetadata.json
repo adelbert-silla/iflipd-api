@@ -22,6 +22,17 @@
     "metadata": {
       "type": "string",
       "required": true
+    },
+    "created": {
+      "type": "number"
+    },
+    "updated": {
+      "type": "number"
+    },
+    "status": {
+      "type": "number",
+      "required": true,
+      "default": "1"
     }
   },
   "validations": [],
