@@ -6,7 +6,7 @@
     "compression": {},
     "cors": {
       "params": {
-        "origin": false,
+        "origin": "http://app2.iflipd.com",
         "credentials": true,
         "maxAge": 86400,
         "allowedHeaders": ["X-Requested-With"],
