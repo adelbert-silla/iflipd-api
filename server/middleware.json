@@ -8,7 +8,9 @@
       "params": {
         "origin": true,
         "credentials": true,
-        "maxAge": 86400
+        "maxAge": 86400,
+        "allowedHeaders": ["X-Requested-With"],
+        "exposedHeaders": ["Content-Range"]
       }
     },
     "helmet#xssFilter": {},
