@@ -6,10 +6,11 @@
     "compression": {},
     "cors": {
       "params": {
-        "origin": "*",
+        "origin": true,
         "credentials": true,
         "maxAge": 86400,
-        "allowedHeaders": ["X-Requested-With"],
+        "methods": ["GET", "POST"],
+        "allowedHeaders": ["X-Requested-With", "Authorization"],
         "exposedHeaders": ["Content-Range"]
       }
     },
