@@ -9,7 +9,7 @@
         "origin": "*",
         "credentials": true,
         "maxAge": 86400,
-        "methods": ["GET", "POST"],
+        "methods": ["GET", "POST", "OPTIONS"],
         "allowedHeaders": ["X-Requested-With", "Authorization"],
         "exposedHeaders": ["Content-Range"]
       }
