@@ -9,9 +9,18 @@
         "origin": "*",
         "credentials": true,
         "maxAge": 86400,
-        "methods": ["GET", "POST", "OPTIONS"],
-        "allowedHeaders": ["X-Requested-With", "Authorization"],
-        "exposedHeaders": ["Content-Range"]
+        "methods": [
+          "GET",
+          "POST",
+          "OPTIONS"
+        ],
+        "allowedHeaders": [
+          "X-Requested-With",
+          "Authorization"
+        ],
+        "exposedHeaders": [
+          "Content-Range"
+        ]
       }
     },
     "helmet#xssFilter": {},

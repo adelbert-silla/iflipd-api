@@ -35,5 +35,9 @@
   "BookMetadata": {
     "dataSource": "db",
     "public": true
+  },
+  "Book": {
+    "dataSource": "db",
+    "public": true
   }
 }

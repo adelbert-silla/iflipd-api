@@ -1,0 +1,57 @@
+{
+  "name": "Book",
+  "plural": "Books",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "isbn13": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string",
+      "required": true
+    },
+    "parentPublisherAlias": {
+      "type": "string",
+      "required": "true",
+      "default": ""
+    },
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "number"
+    },
+    "sources": {
+      "type": ["string"],
+      "required": true
+    },
+    "sourcesMetadata": {
+      "type": "object",
+      "required": true
+    },
+    "created": {
+      "type": "number",
+      "required": true
+    },
+    "updated": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
