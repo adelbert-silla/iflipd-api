@@ -19,17 +19,13 @@
       "type": "string"
     },
     "publisher": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "parentPublisherAlias": {
-      "type": "string",
-      "required": "true",
-      "default": ""
+      "type": "string"
     },
     "author": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "category": {
       "type": "number"
