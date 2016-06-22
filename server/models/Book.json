@@ -49,5 +49,8 @@
   "validations": [],
   "relations": {},
   "acls": [],
-  "methods": {}
+  "methods": {},
+  "scope": {
+    "limit": 10
+  }
 }
