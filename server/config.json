@@ -33,7 +33,8 @@
   },
 
   "BACKENDLESS": {
-    "URL": "http://backflip.backendless.com/chromedia_dev",
+    "URL": "http://backflip.backendless.com",
+    "VERSION": "chromedia_dev",
     "APP_ID": "0821ED8C-1618-AEA0-FF94-E43038CAF900",
     "SECRET_KEY": "4CE80423-BB34-F1EF-FF1C-9B91E3ADD500"
   }

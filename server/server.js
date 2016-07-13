@@ -1,9 +1,17 @@
+'use strict';
+
 var loopback = require('loopback');
 var boot = require('loopback-boot');
+let Backendless = require('../lib/backendless');
 
 var app = module.exports = loopback();
 
 app.start = function() {
+  // initialize backendless
+  let BACKENDLESS_ENV = app.get('BACKENDLESS');
+  Backendless.serverURL = BACKENDLESS_ENV.URL;
+  Backendless.initApp(BACKENDLESS_ENV.APP_ID, BACKENDLESS_ENV.SECRET_KEY, BACKENDLESS_ENV.VERSION);
+
   // start the web server
   return app.listen(function() {
     app.emit('started');
