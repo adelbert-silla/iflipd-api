@@ -1,0 +1,6 @@
+{
+  "preset": "node-style-guide",
+  "requireParenthesesAroundArrowParam": false,
+  "requireSpacesInsideObjectBrackets": false,
+  "requireCurlyBraces": false
+}
